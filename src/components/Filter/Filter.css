@@ -1,0 +1,22 @@
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter li {
+  display: flex;
+  align-items: center;
+}
+
+.filter__button {
+  font-size: 14px;
+  color: #868686;
+  background: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.selected {
+  border: 1px solid #868686;
+}

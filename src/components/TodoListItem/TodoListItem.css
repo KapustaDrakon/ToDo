@@ -1,0 +1,56 @@
+.item {
+  color: #464646;
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  padding: 16px 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.item__checkbox,
+.item__label {
+  cursor: pointer;
+}
+
+.item__checkbox {
+  appearance: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid rgb(218, 218, 218);
+}
+
+.item__checkbox:checked:after {
+  visibility: visible;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: url("../../assets/check.svg") no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.item__label {
+  margin-left: 30px;
+  overflow-x: hidden;
+}
+
+.item__completed {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  padding: 16px 10px;
+  display: flex;
+  align-items: center;
+  color: #cdcdcd !important;
+  text-decoration: line-through;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+}
+
+.header__title {
+  color: rgba(175, 47, 47, 0.15);
+  font-size: 80px;
+  font-weight: 200;
+  text-align: center;
+  width: 100%;
+}
+
+.new-todo-form__input {
+  width: 100%;
+  background: #ffffff;
+  padding: 16px 60px;
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.new-todo-form__input::placeholder {
+  font-style: italic;
+  color: #bcbcbc;
+}
