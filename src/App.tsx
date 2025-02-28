@@ -29,9 +29,9 @@ function App() {
 
   useEffect(() => {
     setTodoData([
-      createTodoItem("Тестовое задание"),
-      createTodoItem("Прекрасный код"),
-      createTodoItem("Покрытие тестами"),
+      createTodoItem("Покушать"),
+      createTodoItem("Поспать"),
+      createTodoItem("Попить пиво"),
     ]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
